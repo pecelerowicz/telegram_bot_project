@@ -3,3 +3,43 @@ __pycache__/
 *.pyc
 .DS_Store
 config.py
+
+# Python-specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Conda-specific
+*.conda
+*.lock
+*.log
+*.yaml
+*.yml
+
+# PyCharm-specific
+.idea/                  # Ignore all PyCharm project files
+*.iml                   # Ignore module files
+.idea/*
+.idea/workspace.xml     # Workspace configuration files
+.idea/tasks.xml         # Task management files
+.idea/usage.statistics.xml
+.idea/dictionaries       # User-specific dictionaries
+.idea/shelf              # Shelved changes
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
