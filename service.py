@@ -11,7 +11,7 @@ user_state = {}
 current_word_pair = None
 
 # Function to retrieve the next vocabulary word pair and manage index progression
-def get_next_word_pair(filename="vocabulary.txt"):
+def get_next_word_pair(filename="animals.txt"):
     """Retrieve a random word pair from the vocabulary file."""
     vocabulary_list = []
 
